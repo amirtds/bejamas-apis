@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_media_dimensions",
+  "info": {
+    "name": "dimensions",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    }
+  }
+}

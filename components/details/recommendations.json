@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_details_recommendations",
+  "info": {
+    "name": "recommendations",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "src": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

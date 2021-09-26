@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_media_images",
+  "info": {
+    "name": "image",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    }
+  }
+}

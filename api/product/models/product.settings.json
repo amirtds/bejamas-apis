@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "product",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "people",
+        "landmark",
+        "food",
+        "pet"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "currency": {
+      "type": "enumeration",
+      "enum": [
+        "USD",
+        "CAD",
+        "EUR"
+      ]
+    },
+    "bestseller": {
+      "type": "boolean"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.image"
+    },
+    "details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "details.details"
+    }
+  }
+}

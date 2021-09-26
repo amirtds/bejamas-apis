@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners",
+  "info": {
+    "name": "Banner",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}
